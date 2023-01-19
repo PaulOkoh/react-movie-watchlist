@@ -1,5 +1,5 @@
-import Watchlist from "./Watchlist";
-function MovieCard({ movie, addMovie, removeMovie, list }) {
+
+const  MovieCard = ({ movie, addMovie, removeMovie, list }) => {
   const inWatchlist = list.filter((mov) => {
     return mov.id === movie.id;
   });
